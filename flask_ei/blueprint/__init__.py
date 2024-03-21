@@ -15,7 +15,7 @@ def create_app():
     login_manager = LoginManager()
     login_manager.init_app(app)
     app.config['SECRET_KEY'] = '123_secret_key_here'
-    app.config.from_pyfile('D:\\package\\code\\flask_ei\\config.py')
+    app.config.from_pyfile('D:\\package\\code\\Flask+Vue\\flask_ei\\config.py')
 
     db.init_app(app)
 
